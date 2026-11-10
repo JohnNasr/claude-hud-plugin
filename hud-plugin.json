@@ -1,0 +1,30 @@
+{
+  "plugin": {
+    "name": "claude-desktop-hud",
+    "title": "Agent HUD",
+    "description": "Live agent activity panel for Claude Desktop sidebar",
+    "version": "1.0.0",
+    "author": "Claude Agent",
+    "entryPoint": "HUDPanel.tsx",
+    "permissions": ["TaskList", "TaskCreate", "TaskUpdate"],
+    "sidebar": {
+      "id": "agent-hud-panel",
+      "title": "Agent Activity",
+      "icon": "🚀",
+      "defaultCollapsed": false,
+      "width": 320
+    }
+  },
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "permissions": {
+    "tools": {
+      "mcp__task__list_tasks": "read",
+      "mcp__task__create_scheduled_task": "write",
+      "mcp__task__update_scheduled_task": "write",
+      "mcp__task__delete_scheduled_task": "write"
+    }
+  }
+}

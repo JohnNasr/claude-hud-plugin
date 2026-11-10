@@ -1,0 +1,26 @@
+{
+  "name": "claude-hud-plugin",
+  "version": "1.0.0",
+  "description": "Live agent activity panel for Claude Desktop",
+  "main": "HUDPanel.tsx",
+  "scripts": {
+    "dev": "echo 'No build step - direct installation to plugins folder'",
+    "install": "cp * ~/.config/Claude/plugins/claude-hud-plugin/",
+    "test": "echo 'No tests'"
+  },
+  "keywords": [
+    "claude",
+    "claude-desktop",
+    "agent",
+    "hud",
+    "task",
+    "panel",
+    "plugin"
+  ],
+  "author": "Claude Agent",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/claude-hud-plugin.git"
+  }
+}
